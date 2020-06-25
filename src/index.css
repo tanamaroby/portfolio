@@ -1,43 +1,84 @@
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: local('TitilliumWeb'), url(./Components/Resources/Fonts/TitilliumWeb-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  font-weight: 450;
+  src: local('TitilliumWeb'), url(./Components/Resources/Fonts/TitilliumWeb-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  font-weight: 900;
+  src: local('TitilliumWeb'), url(./Components/Resources/Fonts/TitilliumWeb-Bold.ttf) format('truetype');
+}
+
 * {
   margin: 0;
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #F1FAEE;
   color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: TitilliumWeb;
 }
 
 .header {
   text-align: center;
-  padding: 45px;
-  background-color: #003459;
-  color: aliceblue;
+  padding: 2.5%;
+  background-color: #457B9D;
+  color: #F1FAEE;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
 .greeting {
-  font-size: 80px;
-  font-weight: bolder;
-  margin: 25px;
+  font-size: 4vw;
+  font-weight: 900;
+  margin: 5%;
   text-align: left;
-  margin-left: 100px;
   line-height: 200%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .greeting .name {
-  background-color: #00171F;
-  padding: 25px;
-  border-radius: 40px;
+  background-color: #1D3557;
+  padding: 0em 0.2em;
+  border-radius: 0.5em;
 }
 
 .header .image {
-  width: 350px;
+  width: 25%;
   border-radius: 50%;
-  box-shadow: -15px 15px 10px #00171F;
+  border: 0.8vw solid #1D3557;
+}
+
+.social {
+  background-color: #457B9D;
+  text-align: center;
+  font-size: 1vw;
+  padding-bottom: 1em;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.social .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social .logo .image {
+  width: 3vw;
+  margin: 1vw;
+  border-radius: 50%;
+}
+
+.social .logo .image:hover {
+  transform: scale(1.2);
 }
 
 .footer {
@@ -46,8 +87,9 @@ body {
   bottom:0;
   right:0;
   text-align: center;
-  padding: 25px;
-  background-color: #003459;
+  padding: 2em;
+  background-color: #457B9D;
   color: white;
   font-weight: bold;
+  font-size: 15px;
 }
