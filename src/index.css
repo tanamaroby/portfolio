@@ -1,4 +1,5 @@
 @font-face {
+  font-weight: 100;
   font-family: 'TitilliumWeb';
   src: local('TitilliumWeb'), url(./Components/Resources/Fonts/TitilliumWeb-Regular.ttf) format('truetype');
 }
@@ -17,16 +18,17 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #457B9D;
+  font-weight: 100;
   color: black;
   font-family: TitilliumWeb;
 }
 
-.header {
-  text-align: center;
+.mainheader {
   padding: 2.5%;
   color: #F1FAEE;
   align-items: center;
@@ -35,7 +37,7 @@ body {
 }
 
 .greeting {
-  font-size: 4vw;
+  font-size: calc(100% + 3vw);
   font-weight: 900;
   margin: 5%;
   text-align: left;
@@ -48,16 +50,16 @@ body {
   border-radius: 0.5em;
 }
 
-.header .image {
-  width: 25%;
+.mainheader .image {
+  width: 30%;
   border-radius: 50%;
   border: 0.8vw solid #1D3557;
 }
 
 .social {
   text-align: center;
-  font-size: 1.2vw;
-  padding-bottom: 1em;
+  font-size: calc(100% + 0.4vw);
+  padding-bottom: 1vw;
   align-items: center;
   justify-content: center;
   color: white;
@@ -70,7 +72,7 @@ body {
 }
 
 .social .logo .image {
-  width: 3vw;
+  width: 50px;
   margin: 1vw;
   border-radius: 50%;
 }
@@ -79,11 +81,38 @@ body {
   transform: scale(1.2);
 }
 
+.maincontent {
+  background-color: #F1FAEE;
+  padding-bottom: 3vw;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.aboutme {
+  margin-bottom: 10%;
+}
+
+.maincontent .contentheader {
+  font-size: calc(100% + 2vw);
+  color: #1D3557;
+  font-weight: 900;
+  text-align: center;
+  padding: 1em;
+}
+
+.maincontent .content {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 75%;
+  font-size: calc(100% + 1vw);
+}
+
 .footer {
   text-align: center;
-  padding: 2em;
+  padding: 2vw;
   background-color: #1D3557;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: calc(100% + 1vw);
 }

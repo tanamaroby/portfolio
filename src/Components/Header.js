@@ -20,7 +20,7 @@ function Header() {
 
     return(
         <div>
-            <div className="header">
+            <div className="mainheader">
                 <img className="image" src={profileImage} alt="Profile"/>
                 <div className="greeting">
                     <h1>Good {timeOfDay}!</h1>
