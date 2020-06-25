@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.88c1fd36.chunk.css",
-    "main.js": "/portfolio/static/js/main.2ab862fb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2ab862fb.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a73370ea.chunk.css",
+    "main.js": "/portfolio/static/js/main.b47eb854.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b47eb854.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.558b2731.chunk.js": "/portfolio/static/js/2.558b2731.chunk.js",
-    "static/js/2.558b2731.chunk.js.map": "/portfolio/static/js/2.558b2731.chunk.js.map",
+    "static/js/2.96cc542e.chunk.js": "/portfolio/static/js/2.96cc542e.chunk.js",
+    "static/js/2.96cc542e.chunk.js.map": "/portfolio/static/js/2.96cc542e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1d92e45066b036de73da3fa2e894cede.js": "/portfolio/precache-manifest.1d92e45066b036de73da3fa2e894cede.js",
+    "precache-manifest.f7696e165032c4e07930cb51e20e9535.js": "/portfolio/precache-manifest.f7696e165032c4e07930cb51e20e9535.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.88c1fd36.chunk.css.map": "/portfolio/static/css/main.88c1fd36.chunk.css.map",
-    "static/js/2.558b2731.chunk.js.LICENSE.txt": "/portfolio/static/js/2.558b2731.chunk.js.LICENSE.txt",
+    "static/css/main.a73370ea.chunk.css.map": "/portfolio/static/css/main.a73370ea.chunk.css.map",
+    "static/js/2.96cc542e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.96cc542e.chunk.js.LICENSE.txt",
     "static/media/Instagram.png": "/portfolio/static/media/Instagram.eaf14526.png",
     "static/media/LinkedIn.jpg": "/portfolio/static/media/LinkedIn.e6afdbc1.jpg",
-    "static/media/ProfilePic.jpg": "/portfolio/static/media/ProfilePic.6d587ea3.jpg",
+    "static/media/NUS.jpg": "/portfolio/static/media/NUS.e08be1ac.jpg",
+    "static/media/ProfilePic.jpg": "/portfolio/static/media/ProfilePic.cee34b46.jpg",
+    "static/media/QueenswayLogo.jpg": "/portfolio/static/media/QueenswayLogo.c9b7f3b0.jpg",
+    "static/media/StAndrews.jpg": "/portfolio/static/media/StAndrews.b2b35fbf.jpg",
     "static/media/Telegram.png": "/portfolio/static/media/Telegram.d5d0b0a4.png",
     "static/media/index.css": "/portfolio/static/media/TitilliumWeb-SemiBold.ce96d75e.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.558b2731.chunk.js",
-    "static/css/main.88c1fd36.chunk.css",
-    "static/js/main.2ab862fb.chunk.js"
+    "static/js/2.96cc542e.chunk.js",
+    "static/css/main.a73370ea.chunk.css",
+    "static/js/main.b47eb854.chunk.js"
   ]
 }
