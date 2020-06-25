@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: #F1FAEE;
+  background-color: #457B9D;
   color: black;
   font-family: TitilliumWeb;
 }
@@ -28,7 +28,6 @@ body {
 .header {
   text-align: center;
   padding: 2.5%;
-  background-color: #457B9D;
   color: #F1FAEE;
   align-items: center;
   justify-content: center;
@@ -56,9 +55,8 @@ body {
 }
 
 .social {
-  background-color: #457B9D;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
   padding-bottom: 1em;
   align-items: center;
   justify-content: center;
@@ -82,13 +80,9 @@ body {
 }
 
 .footer {
-  position: absolute;
-  left:0;
-  bottom:0;
-  right:0;
   text-align: center;
   padding: 2em;
-  background-color: #457B9D;
+  background-color: #1D3557;
   color: white;
   font-weight: bold;
   font-size: 15px;

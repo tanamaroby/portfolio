@@ -23,7 +23,7 @@ function Header() {
             <div className="header">
                 <img className="image" src={profileImage} alt="Profile"/>
                 <div className="greeting">
-                    <p>Good {timeOfDay}!</p>
+                    <h1>Good {timeOfDay}!</h1>
                     <span>I'm </span>
                     <span className="name">Roby Tanama</span>
                 </div>
