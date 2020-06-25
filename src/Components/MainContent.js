@@ -1,5 +1,10 @@
 import React from "react";
 
+import EducationCard from './Objects/EducationCard';
+import NUSLogo from './Resources/Images/NUS.jpg';
+import StAndrewsLogo from './Resources/Images/StAndrews.jpg';
+import QueenswayLogo from './Resources/Images/QueenswayLogo.jpg';
+
 function MainContent() {
     return(
         <div className="maincontent">
@@ -19,7 +24,21 @@ function MainContent() {
             <div className="education">
                 <h1 className="contentheader">Education</h1>
                 <div className="content">
-                    
+                    <EducationCard 
+                        imgUrl={NUSLogo}
+                        name='National University of Singapore'
+                        description='August 2018 - May 2022'
+                    />
+                    <EducationCard 
+                        imgUrl={StAndrewsLogo}
+                        name="St Andrews's Junior College"
+                        description='January 2016 - November 2017'
+                    />
+                    <EducationCard 
+                        imgUrl={QueenswayLogo}
+                        name='Queensway Secondary School'
+                        description='January 2013 - November 2015'
+                    />
                 </div>
             </div>
         </div>
