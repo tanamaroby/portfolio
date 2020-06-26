@@ -1,0 +1,20 @@
+.schoolcard {
+    display: flex;
+    align-items: center;
+}
+
+.schoolimage {
+    border-radius: 50px;
+    width: 250px;
+    height: auto;
+    border: 10px solid #1D3557;
+    margin: 85px;
+}
+
+.schoolimage:hover {
+    transform: scale(1.2);
+}
+
+.schooltext {
+    font-size: 35px;
+}
