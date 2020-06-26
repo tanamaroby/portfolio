@@ -1,0 +1,20 @@
+.Collapsible {
+    background-color: #457B9D;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0.4em;
+}
+
+.Collapsible__contentInner {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0.4em;
+}
+
+.Collapsible__trigger:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    float: right;
+}

@@ -37,7 +37,7 @@ function Header() {
                     <a href="https://github.com/robytanama">
                         <img className="image" src={githubLogo} alt="Github" />
                     </a>
-                    <a href="https://instagram.com/robytanama">
+                    <a href="https://instagram.com/tanama.inc">
                         <img className="image" src={instagramLogo} alt="Instagram" />
                     </a>
                     <a href="https://www.linkedin.com/in/robytanama/">

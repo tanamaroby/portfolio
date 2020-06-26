@@ -1,9 +1,9 @@
-.schoolcard {
+.projectcard {
     display: flex;
     align-items: center;
 }
 
-.schoolimage {
+.projectimage {
     border-radius: 50px;
     width: 250px;
     height: 250px;
@@ -12,7 +12,7 @@
     margin: 85px;
 }
 
-.schoolredirectbutton {
+.projectredirectbutton {
     background-color: #457B9D;
     color: white;
     padding: 0.6em;
@@ -25,14 +25,19 @@
     outline: none;
 }
 
-.schoolredirectbutton:hover {
+.projectredirectbutton:hover {
     transform: scale(1.1);
 }
 
-.schoolredirectbutton:active {
+.projectredirectbutton:active {
     background-color: white;
 }
 
-.schooltext {
+.projecttext {
     font-size: 35px;
+}
+
+.projecttext .projectdetails {
+    color: #1D3557;
+    font-size: 20px;
 }

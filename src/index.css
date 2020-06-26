@@ -22,14 +22,15 @@
 }
 
 body {
-  background-color: #457B9D;
-  font-weight: 100;
+  background-color: #1D3557;
+  font-weight: 450;
   color: black;
   font-family: TitilliumWeb;
 }
 
 .mainheader {
   padding: 25px;
+  margin-top: 50px;
   color: #F1FAEE;
   align-items: center;
   justify-content: center;
@@ -44,16 +45,10 @@ body {
   line-height: 200%;
 }
 
-.greeting .name {
-  background-color: #1D3557;
-  padding: 0em 0.2em;
-  border-radius: 0.5em;
-}
-
 .mainheader .image {
   width: 450px;
   border-radius: 50%;
-  border: 10px solid #1D3557;
+  border: 10px solid #457B9D;
 }
 
 .social {
@@ -75,30 +70,29 @@ body {
   width: 60px;
   margin: 20px;
   border-radius: 50%;
+  transition-duration: 0.4s;
 }
 
 .social .logo .image:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .maincontent {
-  background-color: #F1FAEE;
+  background-color: #1D3557;
   padding-bottom: 20px;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
 }
 
-.aboutme {
+.maincontent .box {
   padding-bottom: 80px;
 }
 
+
 .maincontent .contentheader {
   font-size: 70px;
-  color: #1D3557;
+  color: white;
   font-weight: 900;
   text-align: center;
-  padding: 1em;
+  margin: 1em;
 }
 
 .maincontent .content {
@@ -106,13 +100,14 @@ body {
   margin-right: 12.5%;
   width: 75%;
   font-size: 35px;
+  color:white;
 }
 
 
 .footer {
   text-align: center;
-  padding: 50px;
-  background-color: #1D3557;
+  padding: 60px;
+  background-color: #457B9D;
   color: white;
   font-weight: bold;
   font-size: 30px;
