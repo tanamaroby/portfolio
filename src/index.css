@@ -126,6 +126,12 @@ body {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .greeting {
+    font-size: 60px;
+  }
+}
+
 @media screen and (max-width: 750px) {
 
   .social {
@@ -137,7 +143,7 @@ body {
   }
 
   .greeting {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .maincontent .content {
@@ -151,7 +157,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .greeting {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .mainheader .image {
@@ -161,11 +167,19 @@ body {
 
 @media screen and (max-width: 500px) {
   .greeting {
-    font-size: 35px;
+    font-size: 27px;
   }
 
   .mainheader .content {
     font-size: 20px;
+  }
+
+  .mainheader .image {
+    width: 200px;
+  }
+
+  .social .logo .image {
+    margin: 15px;
   }
 }
 
@@ -175,7 +189,7 @@ body {
   }
 
   .greeting {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .social .logo .image {
@@ -194,7 +208,7 @@ body {
 
 @media screen and (max-width: 320px) {
   .greeting {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .mainheader .image {
