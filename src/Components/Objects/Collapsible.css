@@ -1,6 +1,5 @@
 .Collapsible {
     background-color: #457B9D;
-    cursor: pointer;
     padding: 10px;
     border-radius: 0.4em;
 }
@@ -16,6 +15,7 @@
     font-size: 30px;
     color: white;
     float: right;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 750px) {
