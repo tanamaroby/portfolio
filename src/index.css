@@ -113,7 +113,7 @@ body {
   font-size: 30px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
 
   .mainheader {
     display: block;
@@ -121,7 +121,88 @@ body {
   }
 
   .greeting {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .social {
+    font-size: 20px;
+  }
+
+  .mainheader .image {
+    width: 300px;
+  }
+
+  .greeting {
+    font-size: 50px;
+  }
+
+  .maincontent .content {
+    font-size: 25px;
+  }
+
+  .maincontent .contentheader {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .greeting {
+    font-size: 40px;
+  }
+
+  .mainheader .image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .greeting {
+    font-size: 35px;
+  }
+
+  .mainheader .content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mainheader .image {
+    width: 150px;
+  }
+
+  .greeting {
+    font-size: 20px;
+  }
+
+  .social .logo .image {
+    width: 50px;
+    margin: 15px;
+  }
+
+  .maincontent .contentheader {
+    font-size: 40px;
+  }
+
+  .maincontent .content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .greeting {
+    font-size: 18px;
+  }
+
+  .mainheader .image {
+    width: 130px;
+  }
+
+  .social .logo .image {
+    width: 45px;
+    margin: 10px;
   }
 }

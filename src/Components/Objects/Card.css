@@ -1,6 +1,7 @@
 .card {
     display: flex;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .cardimage {
@@ -9,7 +10,7 @@
     height: 250px;
     border: 10px solid #457B9D;
     background-color: white;
-    margin: 85px;
+    margin: 50px;
 }
 
 .cardredirectbutton {
@@ -23,6 +24,7 @@
     cursor: pointer;
     border: none;
     outline: none;
+    margin-top: 10px;
 }
 
 .cardredirectbutton:hover {
@@ -44,4 +46,39 @@
 .cardtext .carddetails {
     color: #1D3557;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+    .card {
+        display: block;
+        text-align: center;
+    }
+
+    .cardimage {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cardimage {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cardtext {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cardtext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cardimage {
+        width: 150px;
+        height: 150px;
+    }
 }

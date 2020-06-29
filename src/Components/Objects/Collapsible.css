@@ -17,3 +17,15 @@
     color: white;
     float: right;
 }
+
+@media screen and (max-width: 750px) {
+    .Collapsible__trigger:after {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Collapsible__trigger:after {
+        font-size: 20px;
+    }
+}
