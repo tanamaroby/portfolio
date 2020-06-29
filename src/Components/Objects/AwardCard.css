@@ -1,0 +1,42 @@
+.awardcard {
+    display: flex;
+    align-items: center;
+}
+
+.awardimage {
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    border: 10px solid #457B9D;
+    background-color: white;
+    margin: 85px;
+}
+
+.awardredirectbutton {
+    background-color: #457B9D;
+    color: white;
+    padding: 0.6em;
+    font-size: 20px;
+    border-radius: 0.8em;
+    font-family: TitilliumWeb;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.awardredirectbutton:hover {
+    transform: scale(1.1);
+}
+
+.awardredirectbutton:active {
+    background-color: white;
+}
+
+.awardtext {
+    font-size: 35px;
+}
+
+.awarddescription {
+    font-size:20px;
+}

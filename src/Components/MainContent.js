@@ -7,6 +7,16 @@ import QueenswayLogo from './Resources/Images/QueenswayLogo.jpg';
 
 import ProjectCard from './Objects/ProjectCard';
 import TanamabotLogo from './Resources/Images/tanamabot_2.0.png';
+import AetherLogo from './Resources/Images/Aether.png';
+import SaveNUSLogo from './Resources/Images/SaveNUSLogo.png';
+import RadomirLogo from './Resources/Images/RadomirLogo.png'
+
+import JobCard from './Objects/JobCard';
+import OcapLogo from './Resources/Images/OcapLogo.png';
+
+import AwardCard from './Objects/AwardCard';
+import HackAndRollLogo from './Resources/Images/HackAndRollLogo.png';
+import StepsLogo from './Resources/Images/StepsLogo.png';
 
 function MainContent() {
     return(
@@ -52,9 +62,67 @@ function MainContent() {
                 <div className="content">
                     <ProjectCard 
                         imgUrl={TanamabotLogo}
-                        name="TanamaBot Group Chat Bot"
-                        description="Telegram bot designed for group chat needs"
+                        name="Tanama, Group Chat Bot"
+                        description="Telegram bot designed for group chat needs including member greetings, video searching, and many more! 
+                        The bot is written in Java and took approximately 2 weeks of development for version 1.0 release. This project was started 
+                        as a way for me to become more familiar with APIs and hosting services."
                         url="https://t.me/tanamabot"
+                    />
+                    <ProjectCard 
+                        imgUrl={AetherLogo}
+                        name="Aether"
+                        description="Aether is a co-op multiplayer adventure game with a unique premise - the world around you is only visible 
+                        to you beneath your feet. With secrets to be found, a beautifully vibrant world to discover, and monsters lurking at every corner, 
+                        a magical adventure awaits you and your friends. Aether managed to win 1st place in CS3247 STePS AY2019/20 and utilizes Unity engine."
+                        url="https://github.com/Eclmist/Aether"
+                    />
+                    <ProjectCard 
+                        imgUrl={SaveNUSLogo}
+                        name="SaveNUS, Meal Budget Planning"
+                        description="SaveNUS is a financial planning app for meal planning in NUS. This app is meant for students who prefer to use 
+                        a desktop app for an in-depth meal planning and budgeting within NUS by keeping track of your meal expenditure and giving 
+                        meal suggestions based on available budget. This app is written in Java and took approximately 1 month of development."
+                        url="https://github.com/AY1920S1-CS2103T-F13-2/main"
+                    />
+                    <ProjectCard 
+                        imgUrl={RadomirLogo}
+                        name="Radomir, Task Manager App"
+                        description="Command Line Interface based task manager designed to function like a personal assistant. This app keeps track of 
+                        your tasks, important dates, and also task completion. This app is written in Java and took approximately 1 month of development."
+                        url="https://github.com/robytanama/radomir"
+                    />
+                </div>
+            </div>
+            <div className="box">
+                <h1 className="contentheader">Work Experience</h1>
+                <div className="content">
+                    <JobCard 
+                        imgUrl={OcapLogo}
+                        name="oCap Management"
+                        role="Full stack developer intern"
+                        description="11th May 2020 - 31st July 2020"
+                        url="https://www.ocap.com/"
+                    />
+                </div>
+            </div>
+            <div className="box">
+                <h1 className="contentheader">Awards</h1>
+                <div className="content">
+                    <AwardCard 
+                        imgUrl={HackAndRollLogo}
+                        name="NUS Hack & Roll 2019"
+                        award="Best Freshman Hack"
+                        description="Created a visual novel experience with elaborate story branching where every decision made by the player 
+                        will affect the gameplay experience."
+                        url="https://hacknroll2019.devpost.com/"
+                    />
+                    <AwardCard 
+                        imgUrl={StepsLogo}
+                        name="CS3247 STePS"
+                        award="1st Place"
+                        description="Created a multiplayer platformer with a unique twist where players will only be able to see areas that
+                        they have explored before."
+                        url="https://isteps.comp.nus.edu.sg/event/cs3247/module/AY2019-20+Semester_2+Task_1"
                     />
                 </div>
             </div>
