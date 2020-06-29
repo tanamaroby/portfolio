@@ -110,7 +110,7 @@ body {
   background-color: #457B9D;
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: calc(100% + 0.5em);
 }
 
 @media screen and (max-width: 1250px) {
@@ -202,7 +202,7 @@ body {
   }
 
   .maincontent .content {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 

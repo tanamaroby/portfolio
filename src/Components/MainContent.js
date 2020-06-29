@@ -29,9 +29,9 @@ function MainContent() {
                     Focusing in full-stack software engineering with emphasis 
                     on the front-end side of things.</p>
                     <br></br>
-                    <p>Most of my programming experience comes from self-initiated projects, 
-                    including this site. As for work-related experience, I have only done 
-                    internship as a full-stack software engineer.</p>
+                    <p>As for non-work related information, my hobbies are mostly
+                    piano, guitar, breakdancing, and cooking. In my free time, I usually
+                    either record music, play video games, or start a side project.</p>
                 </div>
             </div>
             <div className="box">
