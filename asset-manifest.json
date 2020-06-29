@@ -1,30 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a73370ea.chunk.css",
-    "main.js": "/portfolio/static/js/main.b47eb854.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b47eb854.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1dab4c26.chunk.css",
+    "main.js": "/portfolio/static/js/main.0f3d27e6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0f3d27e6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.96cc542e.chunk.js": "/portfolio/static/js/2.96cc542e.chunk.js",
-    "static/js/2.96cc542e.chunk.js.map": "/portfolio/static/js/2.96cc542e.chunk.js.map",
+    "static/js/2.90cc59fb.chunk.js": "/portfolio/static/js/2.90cc59fb.chunk.js",
+    "static/js/2.90cc59fb.chunk.js.map": "/portfolio/static/js/2.90cc59fb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f7696e165032c4e07930cb51e20e9535.js": "/portfolio/precache-manifest.f7696e165032c4e07930cb51e20e9535.js",
+    "precache-manifest.23ca08383e71fd0c5536b9e8e746502b.js": "/portfolio/precache-manifest.23ca08383e71fd0c5536b9e8e746502b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.a73370ea.chunk.css.map": "/portfolio/static/css/main.a73370ea.chunk.css.map",
-    "static/js/2.96cc542e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.96cc542e.chunk.js.LICENSE.txt",
+    "static/css/main.1dab4c26.chunk.css.map": "/portfolio/static/css/main.1dab4c26.chunk.css.map",
+    "static/js/2.90cc59fb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.90cc59fb.chunk.js.LICENSE.txt",
+    "static/media/Aether.png": "/portfolio/static/media/Aether.f6f061bd.png",
+    "static/media/HackAndRollLogo.png": "/portfolio/static/media/HackAndRollLogo.8e2086c0.png",
     "static/media/Instagram.png": "/portfolio/static/media/Instagram.eaf14526.png",
     "static/media/LinkedIn.jpg": "/portfolio/static/media/LinkedIn.e6afdbc1.jpg",
     "static/media/NUS.jpg": "/portfolio/static/media/NUS.e08be1ac.jpg",
+    "static/media/OcapLogo.png": "/portfolio/static/media/OcapLogo.0c89c056.png",
     "static/media/ProfilePic.jpg": "/portfolio/static/media/ProfilePic.cee34b46.jpg",
-    "static/media/QueenswayLogo.jpg": "/portfolio/static/media/QueenswayLogo.c9b7f3b0.jpg",
+    "static/media/QueenswayLogo.jpg": "/portfolio/static/media/QueenswayLogo.ed0dcfe5.jpg",
+    "static/media/RadomirLogo.png": "/portfolio/static/media/RadomirLogo.cfde85fd.png",
+    "static/media/SaveNUSLogo.png": "/portfolio/static/media/SaveNUSLogo.58ac3bbb.png",
     "static/media/StAndrews.jpg": "/portfolio/static/media/StAndrews.b2b35fbf.jpg",
     "static/media/Telegram.png": "/portfolio/static/media/Telegram.d5d0b0a4.png",
-    "static/media/index.css": "/portfolio/static/media/TitilliumWeb-SemiBold.ce96d75e.ttf"
+    "static/media/index.css": "/portfolio/static/media/TitilliumWeb-SemiBold.ce96d75e.ttf",
+    "static/media/tanamabot_2.0.png": "/portfolio/static/media/tanamabot_2.0.d286b221.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.96cc542e.chunk.js",
-    "static/css/main.a73370ea.chunk.css",
-    "static/js/main.b47eb854.chunk.js"
+    "static/js/2.90cc59fb.chunk.js",
+    "static/css/main.1dab4c26.chunk.css",
+    "static/js/main.0f3d27e6.chunk.js"
   ]
 }
