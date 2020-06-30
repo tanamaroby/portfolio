@@ -18,6 +18,10 @@
     cursor: pointer;
 }
 
+.Collapsible__trigger.is-open:after
+ {
+     content: '-';
+ }
 @media screen and (max-width: 750px) {
     .Collapsible__trigger:after {
         font-size: 22px;
