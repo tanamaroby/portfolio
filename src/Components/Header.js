@@ -29,7 +29,7 @@ function Header() {
                 </div>
             </div>
             <div className="social">
-                <h1>@robytanama</h1>
+                <h1>@tanamaroby</h1>
                 <div className="logo">
                     <a href="https://t.me/robytanama">
                         <img className="image" src={telegramLogo} alt="Telegram" />

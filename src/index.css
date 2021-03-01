@@ -38,7 +38,7 @@ body {
 }
 
 .greeting {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 900;
   margin: 50px;
   text-align: left;
@@ -46,14 +46,14 @@ body {
 }
 
 .mainheader .image {
-  width: 450px;
+  width: 300px;
   border-radius: 50%;
   border: 10px solid #457B9D;
 }
 
 .social {
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   padding-bottom: 10px;
   align-items: center;
   justify-content: center;
@@ -67,7 +67,7 @@ body {
 }
 
 .social .logo .image {
-  width: 60px;
+  width: 45px;
   margin: 20px;
   border-radius: 50%;
   transition-duration: 0.4s;
@@ -88,7 +88,7 @@ body {
 
 
 .maincontent .contentheader {
-  font-size: 70px;
+  font-size: 40px;
   color: white;
   font-weight: 900;
   text-align: center;
@@ -99,7 +99,7 @@ body {
   margin-left: 12.5%;
   margin-right: 12.5%;
   width: 75%;
-  font-size: 35px;
+  font-size: 25px;
   color:white;
 }
 
@@ -121,21 +121,21 @@ body {
   }
 
   .greeting {
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 900px) {
   .greeting {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
 @media screen and (max-width: 750px) {
 
   .social {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .mainheader .image {
@@ -147,11 +147,11 @@ body {
   }
 
   .maincontent .content {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .maincontent .contentheader {
-    font-size: 50px;
+    font-size: 35px;
   }
 }
 

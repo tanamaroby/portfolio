@@ -10,6 +10,8 @@ import TanamabotLogo from './Resources/Images/tanamabot_2.0.png';
 import AetherLogo from './Resources/Images/Aether.png';
 import SaveNUSLogo from './Resources/Images/SaveNUSLogo.png';
 import RadomirLogo from './Resources/Images/RadomirLogo.png'
+import YogaPetsLogo from './Resources/Images/YogaPets.png';
+import BorrowLogo from "./Resources/Images/BorrowIcon.png";
 
 import JobCard from './Objects/JobCard';
 import OcapLogo from './Resources/Images/OcapLogo.png';
@@ -35,29 +37,6 @@ function MainContent() {
                 </div>
             </div>
             <div className="box">
-                <h1 className="contentheader">Education</h1>
-                <div className="content">
-                    <EducationCard 
-                        imgUrl={NUSLogo}
-                        name='National University of Singapore'
-                        description='August 2018 - May 2022'
-                        url="http://www.nus.edu.sg/"
-                    />
-                    <EducationCard 
-                        imgUrl={StAndrewsLogo}
-                        name="St Andrews's Junior College"
-                        description='January 2016 - November 2017'
-                        url="https://standrewsjc.moe.edu.sg/"
-                    />
-                    <EducationCard 
-                        imgUrl={QueenswayLogo}
-                        name='Queensway Secondary School'
-                        description='January 2013 - November 2015'
-                        url="https://queenswaysec.moe.edu.sg/"
-                    />
-                </div>
-            </div>
-            <div className="box">
                 <h1 className="contentheader">Projects</h1>
                 <div className="content">
                     <ProjectCard 
@@ -68,6 +47,14 @@ function MainContent() {
                         as a way for me to become more familiar with APIs and hosting services."
                         url="https://t.me/tanamabot"
                     />
+                    <ProjectCard
+                        imgUrl={BorrowLogo}
+                        name= "Borrow, Online Rental Platform"
+                        description="Borrow is designed to provide a platform for people to borrow and lend items to one another. It provides a much 
+                        cheaper alternative to buying items and a dedicated platform allows people to have greater range of items to borrow. This website
+                        is created using React and Node.js and it's a full stack application using Google Datastore as database."
+                        url="https://borrow-696969.uc.r.appspot.com/home"
+                    />
                     <ProjectCard 
                         imgUrl={AetherLogo}
                         name="Aether"
@@ -75,6 +62,14 @@ function MainContent() {
                         to you beneath your feet. With secrets to be found, a beautifully vibrant world to discover, and monsters lurking at every corner, 
                         a magical adventure awaits you and your friends. Aether managed to win 1st place in CS3247 STePS AY2019/20 and utilizes Unity engine."
                         url="https://github.com/Eclmist/Aether"
+                    />
+                    <ProjectCard
+                        imgUrl={YogaPetsLogo}
+                        name="YogaPets, Pet Rental Service"
+                        description="YogaPets provides a platform for both pet owners and caretakers to interact. Pet owners can easily search for caretakers and 
+                        vice versa. This service also has a dedicated salary system for caretakers who want to pursue either full-time or part-time position. This website
+                        is created using React for front-end and SQL for database"
+                        url="https://cs2102-ay2021-s1-team14.herokuapp.com"
                     />
                     <ProjectCard 
                         imgUrl={SaveNUSLogo}
@@ -102,6 +97,29 @@ function MainContent() {
                         role="Full stack developer intern"
                         description="11th May 2020 - 31st July 2020"
                         url="https://www.ocap.com/"
+                    />
+                </div>
+            </div>
+            <div className="box">
+                <h1 className="contentheader">Education</h1>
+                <div className="content">
+                    <EducationCard 
+                        imgUrl={NUSLogo}
+                        name='National University of Singapore'
+                        description='August 2018 - May 2022'
+                        url="http://www.nus.edu.sg/"
+                    />
+                    <EducationCard 
+                        imgUrl={StAndrewsLogo}
+                        name="St Andrews's Junior College"
+                        description='January 2016 - November 2017'
+                        url="https://standrewsjc.moe.edu.sg/"
+                    />
+                    <EducationCard 
+                        imgUrl={QueenswayLogo}
+                        name='Queensway Secondary School'
+                        description='January 2013 - November 2015'
+                        url="https://queenswaysec.moe.edu.sg/"
                     />
                 </div>
             </div>
