@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dac95cd850fa8961937333350d50698",
+    "revision": "96e8989950b85658cd2b4b19b6cc36a2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "4dcb6a660e64decb94a6",
-    "url": "/portfolio/static/css/main.0a82500c.chunk.css"
+    "revision": "f1eafa02f2d505669050",
+    "url": "/portfolio/static/css/main.234ccc33.chunk.css"
   },
   {
-    "revision": "4fbc9b7b37a93986610a",
-    "url": "/portfolio/static/js/2.90cc59fb.chunk.js"
+    "revision": "18a17cf21493ff2c54ac",
+    "url": "/portfolio/static/js/2.05bb51b3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.90cc59fb.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.05bb51b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4dcb6a660e64decb94a6",
-    "url": "/portfolio/static/js/main.4b254369.chunk.js"
+    "revision": "f1eafa02f2d505669050",
+    "url": "/portfolio/static/js/main.93c5a665.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce96d75e97d58b7396e1431557bb02a0",
     "url": "/portfolio/static/media/TitilliumWeb-SemiBold.ce96d75e.ttf"
+  },
+  {
+    "revision": "5e49451f81f2d899a4613597b163792f",
+    "url": "/portfolio/static/media/YogaPets.5e49451f.png"
   },
   {
     "revision": "d286b221bbb4d422860f5a924a3f3ea1",
